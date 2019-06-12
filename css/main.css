@@ -1,0 +1,165 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header,
+footer,
+section,
+article,
+div{
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+main{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header Styles */
+.header{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    text-transform: uppercase;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.header-inner{
+    color: #2d3c49;
+    padding-left: 0;
+}
+
+.header-logo{
+    float: left;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    height: 15vh;
+    width: 18vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.header-photo{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-title{
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 0;
+    padding-top: 1.5em;
+    padding-right: 0.5em;
+}
+
+.header-desc{
+    font-size: 0.8em;
+    font-weight: 200;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 1.5em;
+    padding-right: 0.5em;
+}
+
+/* Content Styles */
+.content{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.image,
+.img-article{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.image:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.project-one,
+.project-two,
+.project-three{
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 45vh;
+}
+
+h2{
+    color: #2d3c49;
+    font-weight: 300;
+    font-size: 0.5em;
+}
+
+h3{
+    color: #7d97ad;
+}
+
+.featured-work{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 2em;
+    vertical-align: text-bottom;
+    text-transform: uppercase;
+}
+
+.featured-work-title{
+    font-weight: 300;
+    font-size: 1.5em;
+    order: 5;
+}
+
+.project-thumbnail{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.project-title{
+    padding-top: 0.5em;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.project-title a{
+    color: #7d97ad;
+    text-decoration: none;
+}
+
+.project-title a:hover{
+    text-decoration: underline;
+}
+
+.article{
+    width: 100%;
+    height: 40vh;
+    margin-top: 1em;
+}
+
+/* Footer Styles */
+footer{
+    border-top: 1px solid #E0E0E0;
+    font-size: 1em;
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+    height: 5em !important;
+}
+

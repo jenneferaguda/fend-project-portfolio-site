@@ -1,0 +1,149 @@
+/* Responsive Styles */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article,
+.featured-work,
+.project-one,
+.project-two,
+.project-three{
+    order: 10;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Setting the position of footer */
+#root {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* Setting the order of major elements */
+.article{
+    order: 0;
+}
+
+.featured-work{
+    order: 1;
+}
+
+.project-one{
+    order: 2;
+}
+
+.project-two{
+    order: 3;
+}
+
+.project-three{
+    order: 4;
+}
+
+/* Media queries */
+/* Setting styles for small devices, phones */ 
+@media screen and (min-width : 480px) {
+    .header-logo{
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .header-title{
+        font-size: 2em;
+    }
+
+    .header-desc{
+        font-size: 1.2em;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three{
+        margin-bottom: 5em;
+    }
+}
+
+/* Setting styles for small devices, tablets */
+@media screen and (min-width : 760px) {
+    .header-logo{
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+    }
+    
+    .header-title{
+        font-size: 3em;
+        padding-top: 1em;
+    }
+
+    .header-desc{
+        font-size: 1.4em;
+        padding-bottom: 1em;
+    }
+
+    .featured-work-title{
+        font-size: 2em;
+    }
+
+    .project-title{
+        font-size: 1.5em;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three{
+        margin-left: 3em;
+        margin-right: 3em;   
+        margin-bottom: 5em;
+    }
+}
+
+/* Setting styles for medium devices, desktops */
+@media screen and (min-width : 992px) {
+    .content,
+    .header-inner,
+    main{
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three{
+        width: 33.333%;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 40vh;
+        margin-bottom: 10em;
+        flex: 1;
+   }
+}
+
+/* Setting styles for large devices, wide screens */
+@media screen and (min-width : 1024px) {
+    .content,
+    .header-inner,
+    main{
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three{
+        height: 20vh;
+        margin-bottom: 10em;
+   }
+
+   .article{
+       height: 50vh;
+   }
+}
